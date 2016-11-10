@@ -1,10 +1,15 @@
 {
   "name": "dropbox-client-oauth2",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Extension functions to Dropbox SDK to enabling OAuth2 with responsetype code.",
   "main": "index.js",
   "author": "Bardur Hammer Pihl",
   "license": "MIT",
+  "homepage": "https://github.com/b-dur/dropbox-client-oauth2",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/b-dur/dropbox-client-oauth2"
+  },
   "dependencies": {
     "dropbox": "^2.4.0"
   }

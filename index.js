@@ -56,6 +56,6 @@ function getAccessTokenFromApi(options, callback) {
 
 function accessTokenHandler(callback) {
   return function(err, data) {
-    callback(err, data && data.access_token);
+    callback(err, data);
   };
 }
